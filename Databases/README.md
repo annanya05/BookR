@@ -1,5 +1,5 @@
 # Databases required for the system
-The directory contains the DDL for creation of databases used in 'Find your Bind'.
+The directory contains the DDL and DML required for creation of databases used in 'Find your Bind'.
 
 # How to create databases
 1. Run the files after downloading the sqlite3 library using "pip install db-sqlite3".

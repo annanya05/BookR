@@ -1,3 +1,5 @@
+[amaz.txt](https://github.com/annanya05/BookR/files/6060030/amaz.txt)
+
 # How to run this app?
 
 1. Clone this repository: `git clone https://github.com/annanya05/login.git && cd login/`

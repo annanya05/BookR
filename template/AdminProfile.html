@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Profile</title>
+    <link rel="icon" href="/static/bookstore.png" type="image/icon type">
+    <link rel="stylesheet" type="text/css" href="static/css/profile.css"/>
+</head>
+<body background="/static/profile.jpg" style="background-repeat: no-repeat; background-size: cover; height: 1000px;">
+<center>
+<div class="topnav">
+  <a class="active" href="AddBook.html">Add Book</a>
+  <a class="active" href="AdminEdit.html">Edit Profile</a>
+</div>
+</center>
+<form action="/" method="get">
+    <center>
+        <h1 style="font-family: Brush Script MT;font-size: 60px; color: black;"><b>Find your Bind</b></h1>
+        <p>{{ data }}</p>
+        <p><button type="submit">Logout</button></p>
+        <p></p>
+        <hr style="width: 50%; color: #000000; height: 1px; background-color: black">
+    </center>
+</form>
+</body>
+</html>

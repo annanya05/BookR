@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body background="/static/bookbg.jpg" style="background-repeat: no-repeat; background-size: cover; height: 1000px;">
+        <form class="example" method="post" action="{{ url_for('search') }}" style="margin:auto;max-width:600px">
+            <h2 style="font-family: Sans-Serif;font-size: 20px; color: black;">Recommended Books</h2>
+            <table>
+                {% for col in data1 %}
+                <tr>
+                    <td>{{ col[1] }}</td>
+                    <td>{{ col[2] }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Trending Books</title>
+    <link rel="icon" href="/static/bookstore.png" type="image/icon type">
+    <center><h1 style="font-size: 60px; color: black;">Trending Book List</h1></center>
+</head>
+<body background="/static/bookbg.jpg" style="background-repeat: no-repeat; background-size: cover; height: 2500px;">
+
+<table>
+{% for col in data %}
+<tr>
+<td>{{ col[0] }}</td>
+<td>{{ col[1] }}</td>
+<td>{{ col[2] }}</td>
+<td>{{ col[3] }}</td>
+<td>{{ col[4] }}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
